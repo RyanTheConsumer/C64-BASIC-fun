@@ -1,0 +1,7 @@
+10 a=132
+20 b=666
+30 a=(a or b) and not (a and b)
+40 b=(a or b) and not (a and b)
+50 a=(a or b) and not (a and b)
+60 print a
+70 print b
