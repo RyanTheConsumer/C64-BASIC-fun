@@ -7,7 +7,7 @@
 70 a=fn mod(m) 
 80 m=5
 90 b=fn mod(m)
-100 if a=0 and b=0 then a$(x)="fizz-buzz"
+100 if a=0 and b=0 then a$(x)="fizzbuzz"
 110 if a=0 and b<>0 then a$(x)="fizz"
 120 if a<>0 and b=0 then a$(x)="buzz"
 130 if a<>0 and b<>0 then a$(x)=str$(x)
